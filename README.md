@@ -1,27 +1,29 @@
-# TheQuotesHub
+## THE Quote HUB
+This is a project of making THE Quote HUB. Where you can post quotes and read quotes.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.1.
+## Getting Started
+First you `git clone` the project into your machine and open it with the Virtual Studio Code. 
+So that is `git clone https://github.com/weshy007/quotes-home.git`
 
-## Development server
+## TECHNOLOGIES USED
+- HTML
+- CSS 
+- JavaScript
+- Angular
+- Bootstrap
+- Typescript
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Author and Contacts
+- For feedback, write to josephwaweru96@gmail.com
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Behavior Driven Development
+- The user is able to post quotes from a form.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## License 
+This project is licenced under the MIT Licence - see the [LICENCE](https://github.com/weshy007/quotes-home/blob/master/LICENCE "Licence") file for details 
+- copyright 2021 - Waithaka Waweru 
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Acknowledgements
+Moringa School students MC38
