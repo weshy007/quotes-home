@@ -16,6 +16,10 @@ export class QuoteComponent implements OnInit {
     new Quote ('Davy Django', 'Winning does not always mean being first, it means you are doing better than you have done before', 'Bonnie Blair', new Date(2021,0,1))
   ];
 
+  toggleDetails(index:any){
+    this.quotes[index].showQuote = !this.quotes[index].showQuote;
+  }
+
   constructor() { }
 
   ngOnInit(): void {
