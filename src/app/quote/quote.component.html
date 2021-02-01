@@ -4,8 +4,8 @@
 <hr>
 <ul>
   <div *ngFor='let quote of quotes;let i = index'>
-    <li>{{quote.name}}</li>
+    <li>{{quote.name}} posted on {{quote.datePosted|date}}</li>
     <button (click)='toggleDetails(i)'>Toggle Details</button>
-    <app-quote-details *ngIf='quote.showQuote' [quote]='quote'></app-quote-details>
+    <app-quote-details *ngIf='quote.showQuote' [quote]='quote' (isComplete)='completeQuote($event,i)'></app-quote-details>
   </div>
 </ul>
