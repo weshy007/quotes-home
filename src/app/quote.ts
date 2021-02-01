@@ -6,7 +6,7 @@ export class Quote {
         public name?: string,
         public quote?: string,
         public author?: string,
-        public datePosted?: Date,
+        public datePosted?: Date
     )
     {
         this.showQuote=false;
