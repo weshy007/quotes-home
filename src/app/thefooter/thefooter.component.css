@@ -11,4 +11,6 @@
   }
 .foot {
     text-align: center;
+    background-color: darkslategrey;
+    padding: 1px;
 }
