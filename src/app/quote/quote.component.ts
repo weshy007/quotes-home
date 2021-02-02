@@ -31,20 +31,29 @@ export class QuoteComponent implements OnInit {
   }
 
   addNewQuote(quote:any){
-    // let quoteLength = this.quotes.length;
-    // goal.id = goalLength+1;
     quote.datePosted = new Date(quote.datePosted)
     this.quotes.push(quote)
   }
 
-  upVote(val:any,index:any){
-    if (val === 1) {
-      this.quotes[index].upVote = +1;
+  // upVote(val:any,index:any){
+  //   if (val === 1) {
+  //     this.quotes[index].upVote = +1;
+  //   }
+  //   if (val === -1) {
+  //     this.quotes[index].downVote = +1;
+  //   }
+  // }
+  upvotes = 0;
+downvotes = 0;
+
+  upVote(quote:any) {
+    quote.upVote = quote.upVote + 1;
+    
     }
-    if (val === -1) {
-      this.quotes[index].downVote = +1;
-    }
-  }
+    // downVote(quote:any) {
+    // quote.downVote = quote.downVote + 1;
+    
+    // } 
 
   constructor() { }
 
