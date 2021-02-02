@@ -1,14 +1,14 @@
 export class Quote {
 
-    showQuote?:boolean;
+    showQuote:boolean;
 
     constructor (
-        public name?: string,
-        public quote?: string,
-        public author?: string,
-        public datePosted?: Date,
-        public upVote?: number,
-        public downVote?:number
+        public name: string,
+        public quote: string,
+        public author: string,
+        public datePosted: Date,
+        public upVote: number,
+        public downVote:number
     )
     {
 
