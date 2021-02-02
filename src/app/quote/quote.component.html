@@ -11,7 +11,7 @@
         <button (click)='downVote(1)' type="button" class="btn btn-outline-secondary btn-sm">Downvote</button> <br> <br> -->
 
         <button class="btn btn-secondary btn-sm" (click)='toggleDetails(i)'>Click to View</button>
-        <app-quote-details *ngIf='quote.showQuote' [quote]='quote' (isComplete)='deleteQuote($event,i)' (upvote)='upVote($event, i)'></app-quote-details>
+        <app-quote-details *ngIf='quote.showQuote' [quote]='quote' (isComplete)='deleteQuote($event,i)' (upVote)='upVote($event, i)'></app-quote-details>
       </div>
     </ul>
     
