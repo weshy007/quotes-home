@@ -29,7 +29,7 @@
             <input type='date' id="complete" [(ngModel)]="newQuote.datePosted" name="datePosted" #datePosted="ngModel" required>
             <div [hidden]="datePosted.valid || datePosted.pristine" class="alert alert-danger"> <br>
               <p>Date posted</p>
-            </div>
-            <br>
+        </div>
+        <br>
         
         <button type="submit" class="btn btn-success btn-sm">Add Quote</button>
